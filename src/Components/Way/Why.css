@@ -1,0 +1,48 @@
+.why-choose-us {
+  text-align: center;
+  padding: 0px 20px;
+  background-color: #f8f8f8; 
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-title .highlight {
+  color: #020e1b; 
+}
+
+.feature {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fcf8f8; 
+  border-radius: 0px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+.feature-icon {
+  width: 380px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.feature-description {
+  font-size: 17px;
+  color: #666;
+  line-height: 1.5;
+  display: inline-block; 
+  text-align: center; 
+}

@@ -1,0 +1,76 @@
+.about {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    background: linear-gradient(rgba(4, 2, 17, 0.8), rgba(15, 5, 74, 0.8)), url('../../assets/hero6.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 80px 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-left {
+    flex: 1;
+    padding: 20px;
+    text-align: center; 
+}
+
+.about-right {
+    flex: 1;
+    padding: 20px;
+    text-align: left; 
+}
+
+.about h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about h2 {
+    font-size: 22px;
+    color: #e4e4e4;
+    margin: 10px 0 20px;
+    line-height: 1.6;
+}
+
+.about p {
+    font-size: 16px;
+    color: #d0d0d0;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+
+@media (max-width: 1024px) {
+    .about {
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+
+    .about-left, .about-right {
+        padding: 10px;
+        text-align: center; 
+    }
+
+    .about h1 {
+        font-size: 32px;
+    }
+
+    .about h2 {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+}
